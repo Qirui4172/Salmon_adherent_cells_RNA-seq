@@ -53,7 +53,7 @@
 #	bash salmonDI_mRNA_part1.sh -h (for help information)
 #
 #	Function
-#	Analyze salmon DI RNA-seq data: quality control of raw fastq; trim adapter; quality control of trimmed fastq; align to genome; generate read counts matrix.
+#	Analyze salmon distal intestine and head kidney RNA-seq data, including quality control of raw fastq; trim adapter; quality control of trimmed fastq; align to genome; and generate read counts matrix.
 
 
 ########### Input and output of the script1 #############
