@@ -63,6 +63,7 @@
 # Step "-s/--step" is optional, users can specify step numbers to run. If ignored, all steps will be run automatically by default.
 
 # Output:
+# Folders of qualityControl/, alignment/, cleanReads/, qualityControl/rawReads/, qualityControl/cleanReads/, and qualityControl/alignment/ are created under ${WorkDir}
 # Clean reads are stored in ${WorkDir}/cleanReads/
 # Alignments are stored in ${WorkDir}/alignment/
 # Quality control results of raw reads, clean reads, and alignments are stored in the corresponding subdirectories under ${WorkDir}/qualityControl/.
