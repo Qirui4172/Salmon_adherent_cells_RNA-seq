@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-#----------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
 Usage<-function(){
 	cat("\n\tUsage: Rscript salmonDI_mRNA_part2.r <readCounts.mx> <sampleInfo> <readCounts/gene> <nonZeroLib/gene> <controlGroup> <adjPvalue> <foldChange> <ssaGeneName>","\n\n",
 
@@ -28,7 +28,7 @@ Usage<-function(){
 args<-commandArgs(TRUE)
 if (length(args)!=8){Usage();quit();}
 
-#----------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
 # Load libraries
 time<-format(Sys.time(), format='%Y-%m-%d %H:%M:%S')
 cat(time, "Start analysis", "\n")
